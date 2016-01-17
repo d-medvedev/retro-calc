@@ -125,6 +125,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onClearPressed (sender: UIButton!) {
+        playSound()
+        
         runningNumber = ""
         outputLbl.text = "0"
         leftValString = ""
