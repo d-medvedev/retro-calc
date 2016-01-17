@@ -187,7 +187,7 @@
                                                 </constraints>
                                                 <state key="normal" image="divide"/>
                                                 <connections>
-                                                    <action selector="onDidide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i3J-91-qnb"/>
+                                                    <action selector="onDividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zv7-Ht-DaY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1YT-C1-SJQ">

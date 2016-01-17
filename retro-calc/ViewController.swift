@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         outputLbl.text = runningNumber
     }
 
-    @IBAction func onDididePressed(sender: AnyObject) {
+    @IBAction func onDividePressed(sender: AnyObject) {
         processOperation(Operation.Divide)
     }
 
@@ -83,9 +83,7 @@ class ViewController: UIViewController {
         
         playSound()
         
-        
         if currentOperation != Operation.Empty {
-            
             
             if runningNumber != "" {
                 
@@ -103,7 +101,6 @@ class ViewController: UIViewController {
                 }
                 
                 leftValString = result
-                
                 outputLbl.text = result
             }
             
